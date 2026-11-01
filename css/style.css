@@ -203,7 +203,8 @@ nav .reserve {
 #hero {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 190px;
+    margin-top: 60px;
+    justify-content: flex-end;
 }
 
 #hero .small-text {
@@ -367,7 +368,7 @@ nav .reserve {
     padding-bottom: 70px;
 }
 
-#products .top {
+#products .section-top {
     font-size: 15px;
     display: flex;
     flex-direction: column;
@@ -386,16 +387,28 @@ nav .reserve {
 
 #products .grid-element {
     display: flex;
-    font-size: 13px;
     padding: 10px;
     border-radius: 20px;
     background-color: #FFFFFF;
+}
+
+#products .img-container {
     position: relative;
 }
 
 #products .text-container {
     margin-left: 10px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#products .top {
+    font-size: 13px;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
 }
 
 #products .bottom {
@@ -415,8 +428,8 @@ nav .reserve {
 
 #products .fav {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 5px;
+    right: 5px;
     z-index: 1;
     background-color: #FFFFFF;
     color: #2B1D14;
@@ -431,8 +444,8 @@ nav .reserve {
 
 #products .add-info {
     position: absolute;
-    top: 15px;
-    left: 15px;
+    top: 5px;
+    left: 5px;
     z-index: 1;
 }
 
